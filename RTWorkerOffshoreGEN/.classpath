@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RTCatalogue"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RTCore"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RTIDBProxy"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RTPersistence"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RTSchCore"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/RTWorkerCore"/>
+	<classpathentry kind="lib" path="C:/repositorio/workspace/eclipsews/extlibs/hibernate-release-4.1.3.Final/lib/required/hibernate-jpa-2.0-api-1.0.1.Final.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="http://download.oracle.com/javaee/6/api/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
