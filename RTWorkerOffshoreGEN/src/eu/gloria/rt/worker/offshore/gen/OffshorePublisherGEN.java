@@ -14,7 +14,7 @@ import eu.gloria.rti.sch.core.OffshorePublisher;
 public class OffshorePublisherGEN extends OffshorePluginPublisher implements OffshorePublisher{
 
 	@Override
-	public void publish(String idOp) throws RTSchException {
+	public void publish(long idOp) throws RTSchException {
 		
 		String xmlPath= getPropertyValueString("xmlPath");
 		String opXSD = getPropertyValueString("opXSD");

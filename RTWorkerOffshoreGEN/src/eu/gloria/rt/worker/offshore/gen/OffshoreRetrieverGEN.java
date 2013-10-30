@@ -30,7 +30,7 @@ import eu.gloria.tools.log.LogUtil;
 public class OffshoreRetrieverGEN extends OffshorePluginRetriever implements OffshoreRetriever {
 	
 	@Override
-	public void retrieve(String idOp) throws RTSchException {
+	public void retrieve(long idOp) throws RTSchException {
 		
 		//If access to local file repository is granted		
 		String genImgsBasePath = getPropertyValueString("genImgsBasePath");
