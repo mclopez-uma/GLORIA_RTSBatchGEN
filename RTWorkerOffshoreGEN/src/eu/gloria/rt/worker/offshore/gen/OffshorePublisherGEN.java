@@ -39,6 +39,7 @@ public class OffshorePublisherGEN extends OffshorePluginPublisher implements Off
 					//Recover the OP
 					eu.gloria.rti.sch.core.ObservingPlan op = new eu.gloria.rti.sch.core.ObservingPlan(xmlPath + dbOp.getFile() , opXSD);
 					
+					//TODO
 					//Transmit information to the local scheduler
 					
 					
